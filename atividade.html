@@ -6,6 +6,8 @@
     <title>FIT | Faculdade Inova Tech </title>
 
     <link rel="stylesheet" href="atividade.css">
+    <script src="atividade.js" defer></script>
+
     <script src="https://kit.fontawesome.com/fdd516a2fb.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -49,23 +51,22 @@
                 <img src="img/software-developer-6521720_1280.jpg" alt="Imagem de um programador">
             </div>
 
-            <div>
+            <div class="div-section1">
                 <h2>
                     VESTIBULAR <br>
                     <span>FEVEREIRO 2025</span>
                 </h2>
 
                 <p>
-                    16 GRADUAÇÃO NAS ÁREAS DE TECNOLOGIA E INOVAÇÃO.
+                    16 GRADUAÇÃO NAS ÁREAS DE <br>
+                    TECNOLOGIA E INOVAÇÃO.
                 </p>
 
                 <P>Inscrições abertas <br>
                     Para turmas de Fevereiro
                 </P>
 
-                <button>
-                    <a href="">MATRÍCULE-SE</a>
-                </button>
+                <button id="button01" onclick="trocarCor()">MATRÍCULE-SE</button>
             </div>
 
         </section>
@@ -81,16 +82,18 @@
         </section>
 
         <section class="section03">
-            <div>
+            <div class="div-section3">
                 <h2>Desenvolvimento de Sistemas</h2>
 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores assumenda neque consequuntur fugiat optio molestias soluta in rem, voluptates exercitationem doloremque quis. Corrupti tenetur, perferendis nisi sequi laboriosam dolorum tempore?</p>
             </div>
 
-            <div>
+            <div class="div-section3">
                 <img src="img/artificial-intelligence-3382507_1280.jpg" alt="Imagem de IA">
             </div>
         </section>
+
+        </main>
 
         <footer>
 
@@ -101,30 +104,26 @@
                    <img src="img/tecnologia-inteligente.png" alt="Logo">
                 </div>
 
-            </div>
+                </div>
+
+            
 
             
                 
-                <h3>Nossa Loja</h3>
-              
-                <p>Av. Santo Amaro, 1047 – sala 1802 <br>
-                    Vila Nova Conceição, São Paulo/SP</p>
-            </div>
 
-          
             <div class="div-list-footer">
                 <nav>
                     <ul>
                         <li>
-                            <a href="">CASAS</a>
+                            <a href="">A FIT</a>
                         </li>
 
                         <li>
-                            <a href="">APARTAMENTOS</a>
+                            <a href="">UNIDADES</a>
                         </li>
 
                         <li>
-                            <a href="">ESCRITÓRIOS</a>
+                            <a href="">MÍDIA</a>
                         </li>
                     </ul>
                 </nav>
@@ -142,17 +141,7 @@
         </footer>
 
         
-
-        <div vw class="enabled">
-            <div vw-access-button class="active"></div>
-            <div vw-plugin-wrapper>
-                <div class="vw-plugin-top-wrapper"></div>
-            </div>
-        </div>
-        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-        <script>
-            new window.VLibras.Widget('https://vlibras.gov.br/app');
-        </script>
+       
 
 
 
@@ -163,7 +152,7 @@
 
 
 
-    </main>
+    
 
     
 </body>
