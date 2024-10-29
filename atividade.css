@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     list-style: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Plus Jakarta Sans, sans-serif;
 }
 
 body {
@@ -15,13 +17,14 @@ header {
     padding: min(5vh, 4rem);
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    background-color: #0d0758;
+    background-color: #001520;
     position: sticky;
     top: 0;
     left: 0;
     z-index: 999;
+    box-shadow: 0 0.21rem 0.5rem;
 
 }
 
@@ -46,10 +49,11 @@ header li a {
 .section01 {
     padding: min(20vh, 8rem);
     width: 100%;
-    background-color: #1a1469;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-image: url(img/artificial-intelligence-3382507_1280.jpg);
+    background-attachment: fixed; 
+    background-size: cover; 
+    background-position: cover; 
+    background-repeat: no-repeat; 
 
 }
 
@@ -59,9 +63,12 @@ header li a {
 }
 
 .div-section1 {
+    
     text-align: center;
     display: block;
     justify-content: center;
+    width: 22rem;
+    height: 20rem;
 }
 
 .div-section1 h2 {
@@ -108,12 +115,12 @@ cursor: pointer;
 }
 
 .section02 {
-    background-image: url(img/code-1839406_1280.jpg);
+    background-color: #001520;
     background-attachment: fixed;
     background-size: cover; 
     background-position: cover; 
     background-repeat: no-repeat; 
-    padding: min(20vh, 7rem);
+    padding: min(25vh, 7rem);
     width: 100%;
 }
 
@@ -135,6 +142,65 @@ cursor: pointer;
     margin: 30px;
     flex-wrap: wrap;
 }
+
+#list-curso {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    
+}
+
+
+
+
+.cursos {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.cursos>img {
+    
+    width: 2.3rem;
+    height: 3rem;
+    
+}
+
+
+
+
+.cursos>h3 {
+    
+    font-family: 'Plus Jakarta Sans';
+    font-size: 25px;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 50px;
+  
+}
+
+
+
+.cursos>p {
+    
+    font-family: 'Plus Jakarta Sans' cursive;
+    font-size: 19px;
+    margin-right: 50px;
+    align-items: center;
+    
+}
+
+
+
+
+
+
 
 .section03 {
     padding: min(20vh, 8rem);
@@ -222,4 +288,5 @@ footer ul {
     color: #e2d5c1; 
 }
 
-
+/** paleta de cor
+https://paletadecores.com/paleta/1f4f5d/17414e/10323f/08242f/001520/
