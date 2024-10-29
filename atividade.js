@@ -1,16 +1,16 @@
 function trocarCor() {
-    if (document.body.style.backgroundColor === "grey") {
+    if (document.body.style.backgroundColor === "white") {
        
-        document.body.style.backgroundColor = "#1a1469";
+        document.body.style.backgroundColor = "#001520";
         document.body.style.color = "white";
 
-        document.getElementById("button01").textContent = "MATRÍCULE-SE"
+        document.getElementById("button-header").textContent = "Modo Claro"
     } else {
       
-        document.body.style.backgroundColor = "grey";
-        document.body.style.color = "white";
+        document.body.style.backgroundColor = "white";
+        document.body.style.color = "blue";
 
-        document.getElementById("button01").textContent = "MATRÍCULE-SE"
+        document.getElementById("button-header").textContent = "Modo Escuro"
 
       
     };
